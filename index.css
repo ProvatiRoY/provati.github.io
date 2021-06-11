@@ -1,0 +1,35 @@
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    background-image: url("http://www.sriaurobindoinstitute.org/educational/tffs/images/campus4.jpg");
+    height: 68%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    font-size: 57px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .text-gray-900 text-lg title-font font-medium mb-2{
+    font-family: 'Arvo', serif;
+  }
